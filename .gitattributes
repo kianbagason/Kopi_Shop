@@ -1,0 +1,24 @@
+# Enforce LF in the repository for source files to avoid CRLF/LF issues on Windows
+*.json text eol=lf
+*.js text
+*.jsx text
+*.ts text
+*.tsx text
+*.css text
+*.html text
+*.md text
+
+# Images and binaries should not be normalized
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+
+# SVGs are text but can be large; normalize to LF
+*.svg text eol=lf
+
+# Node modules and build artifacts
+/node_modules/* -text
+/build/* -text

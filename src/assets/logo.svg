@@ -1,0 +1,6 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <circle cx="18" cy="18" r="18" fill="#6f4e37"/>
+  <path d="M8 16h20c0 5.523-4.477 10-10 10S8 21.523 8 16z" fill="#fff"/>
+  <path d="M16 8c0 2.209 2 3 2 3s2-.791 2-3-2-3-2-3-2 .791-2 3z" fill="#fff"/>
+</svg>
